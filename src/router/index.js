@@ -41,3 +41,19 @@ const router = createRouter({
 })
 
 export default router
+
+
+// actions: {
+//   async getInfo {{commit}}{
+//     let api = await fetch ('https://github.com/nazabrahams/dejavue.git/')
+//     let data = await api.json()
+//     let{cars,friends,gaming_consoles} = api.data
+//     console.log(api);
+//     commit('setCars', cars)
+//     commit('setConsoles', gaming_consoles)
+//     commit('setFriends', friends)
+
+
+
+//   }
+// }
